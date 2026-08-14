@@ -1,4 +1,4 @@
-# docker-compose unificado da FCG Fase 2.
+# docker-compose unificado da FCG Fase 3 (base Fase 2 + novos componentes a adicionar).
 # Sobe a infraestrutura (RabbitMQ + PostgreSQL com 3 bancos) e os 4 microsservicos.
 # Uso:  docker-compose up --build
 #

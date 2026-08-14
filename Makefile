@@ -1,4 +1,4 @@
-# Automacao do deploy no Kubernetes (Minikube) da FCG Fase 2.
+# Automacao do deploy no Kubernetes (Minikube) da FCG Fase 3.
 # Uso: `make k8s-up` sobe tudo. `make help` lista os comandos.
 #
 # Requisitos: docker, minikube, kubectl, bash (Linux/Mac nativo; Windows via Git Bash).

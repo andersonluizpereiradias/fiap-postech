@@ -1,6 +1,8 @@
-# FCG Orchestration (Fase 2)
+# FCG Orchestration (Fase 3)
 
-Repositorio de **orquestracao** da FIAP Cloud Games (Fase 2). Concentra a infraestrutura compartilhada (RabbitMQ + PostgreSQL), o `docker-compose` unificado e os manifestos Kubernetes para subir os 4 microsservicos localmente.
+Repositorio de **orquestracao** da FIAP Cloud Games (Fase 3). Parte da base da Fase 2 (RabbitMQ, PostgreSQL, `docker-compose` e manifestos Kubernetes) e concentra aqui as novas capacidades obrigatorias do Tech Challenge: **API Gateway (Kong)**, **Observabilidade (Prometheus + Grafana)**, **MongoDB** e **Redis**.
+
+> Os microsservicos continuam nos repositorios da Fase 2 ate que cada frente evolua o servico correspondente.
 
 ## Arquitetura
 
@@ -24,7 +26,7 @@ Repos dos servicos:
 ## Estrutura
 
 ```
-FIAPCloudGames-fase2-Orchestration/   # este repo (nome padrao do git clone)
+FIAPCloudGames-fase3-Orchestration/   # este repo (nome padrao do git clone)
 ├── docker-compose.yml   # RabbitMQ + Postgres(4 bancos) + 4 servicos
 ├── .env.example         # variaveis do Compose (sem valores reais)
 ├── db/init.sql          # cria catalogdb, notificationsdb e paymentsdb
@@ -38,7 +40,7 @@ Clone os **5 repos** na **mesma pasta pai**. O `docker-compose` assume os nomes 
 
 ```
 pasta-pai/
-├── FIAPCloudGames-fase2-Orchestration/   # este repo
+├── FIAPCloudGames-fase3-Orchestration/   # este repo
 ├── FIAPCloudGames-fase2-UsersAPI/
 ├── FIAPCloudGames-fase2-CatalogAPI/
 ├── FIAPCloudGames-fase2-PaymentsAPI/
@@ -46,9 +48,9 @@ pasta-pai/
 ```
 
 ```bash
-mkdir fcg-fase2 && cd fcg-fase2
+mkdir fcg-fase3 && cd fcg-fase3
 
-git clone https://github.com/andersonluizpereiradias/FIAPCloudGames-fase2-Orchestration.git
+git clone https://github.com/andersonluizpereiradias/FIAPCloudGames-fase3-Orchestration.git
 git clone https://github.com/joao-malvetoni-alta-horizon/FIAPCloudGames-fase2-UsersAPI.git
 git clone https://github.com/joao-malvetoni-alta-horizon/FIAPCloudGames-fase2-CatalogAPI.git
 git clone https://github.com/joao-malvetoni-alta-horizon/FIAPCloudGames-fase2-PaymentsAPI.git
@@ -64,7 +66,7 @@ git clone https://github.com/joao-malvetoni-alta-horizon/FIAPCloudGames-fase2-No
 Pre-requisito: os repos de servico devem estar como **irmaos** deste, com os nomes padrao do clone (ou caminhos customizados no `.env`).
 
 ```bash
-cd FIAPCloudGames-fase2-Orchestration
+cd FIAPCloudGames-fase3-Orchestration
 cp .env.example .env        # ajuste caminhos se renomeou pastas
 docker-compose up --build
 docker-compose ps           # todos healthy/running
