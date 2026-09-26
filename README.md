@@ -18,7 +18,6 @@ git clone --recurse-submodules https://github.com/andersonluizpereiradias/fiap-p
 |---|---|
 | CatalogAPI | [joao-malvetoni-alta-horizon/FIAPCloudGames-fase2-CatalogAPI](https://github.com/joao-malvetoni-alta-horizon/FIAPCloudGames-fase2-CatalogAPI) |
 | NotificationsAPI | [joao-malvetoni-alta-horizon/FIAPCloudGames-fase2-NotificationsAPI](https://github.com/joao-malvetoni-alta-horizon/FIAPCloudGames-fase2-NotificationsAPI) |
-| Orchestration | [andersonluizpereiradias/FIAPCloudGames-fase2-Orchestration](https://github.com/andersonluizpereiradias/FIAPCloudGames-fase2-Orchestration) |
 | PaymentsAPI | [joao-malvetoni-alta-horizon/FIAPCloudGames-fase2-PaymentsAPI](https://github.com/joao-malvetoni-alta-horizon/FIAPCloudGames-fase2-PaymentsAPI) |
 | UsersAPI | [joao-malvetoni-alta-horizon/FIAPCloudGames-fase2-UsersAPI](https://github.com/joao-malvetoni-alta-horizon/FIAPCloudGames-fase2-UsersAPI) |
 
@@ -29,7 +28,6 @@ git clone --recurse-submodules https://github.com/andersonluizpereiradias/fiap-p
 | CatalogAPI | [joao-malvetoni-alta-horizon/FIAPCloudGames-fase3-CatalogAPI](https://github.com/joao-malvetoni-alta-horizon/FIAPCloudGames-fase3-CatalogAPI) |
 | NotificationsAPI | [joao-malvetoni-alta-horizon/FIAPCloudGames-fase3-NotificationsAPI](https://github.com/joao-malvetoni-alta-horizon/FIAPCloudGames-fase3-NotificationsAPI) |
 | Orchestration | [joao-malvetoni-alta-horizon/FIAPCloudGames-fase3-Orchestration](https://github.com/joao-malvetoni-alta-horizon/FIAPCloudGames-fase3-Orchestration) |
-| Orchestration-anderson | [andersonluizpereiradias/FIAPCloudGames-fase3-Orchestration](https://github.com/andersonluizpereiradias/FIAPCloudGames-fase3-Orchestration) |
 | PaymentsAPI | [joao-malvetoni-alta-horizon/FIAPCloudGames-fase3-PaymentsAPI](https://github.com/joao-malvetoni-alta-horizon/FIAPCloudGames-fase3-PaymentsAPI) |
 | UsersAPI | [joao-malvetoni-alta-horizon/FIAPCloudGames-fase3-UsersAPI](https://github.com/joao-malvetoni-alta-horizon/FIAPCloudGames-fase3-UsersAPI) |
 
