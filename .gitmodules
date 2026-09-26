@@ -7,9 +7,6 @@
 [submodule "fase2/NotificationsAPI"]
 	path = fase2/NotificationsAPI
 	url = https://github.com/joao-malvetoni-alta-horizon/FIAPCloudGames-fase2-NotificationsAPI.git
-[submodule "fase2/Orchestration"]
-	path = fase2/Orchestration
-	url = https://github.com/andersonluizpereiradias/FIAPCloudGames-fase2-Orchestration.git
 [submodule "fase2/PaymentsAPI"]
 	path = fase2/PaymentsAPI
 	url = https://github.com/joao-malvetoni-alta-horizon/FIAPCloudGames-fase2-PaymentsAPI.git
