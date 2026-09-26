@@ -1,0 +1,11 @@
+﻿# Material do curso fica no OneDrive (03-Estudos), nao aqui
+*.pdf
+*.zip
+node_modules/
+.claude/settings.local.json
+.env
+.env.*
+
+# Conversas privadas e raspadores do portal: nunca publicar
+*-extracted/
+fase3/scripts/
