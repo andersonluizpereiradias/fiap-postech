@@ -22,9 +22,6 @@
 [submodule "fase3/Orchestration"]
 	path = fase3/Orchestration
 	url = https://github.com/joao-malvetoni-alta-horizon/FIAPCloudGames-fase3-Orchestration.git
-[submodule "fase3/Orchestration-anderson"]
-	path = fase3/Orchestration-anderson
-	url = https://github.com/andersonluizpereiradias/FIAPCloudGames-fase3-Orchestration.git
 [submodule "fase3/PaymentsAPI"]
 	path = fase3/PaymentsAPI
 	url = https://github.com/joao-malvetoni-alta-horizon/FIAPCloudGames-fase3-PaymentsAPI.git
