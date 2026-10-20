@@ -9,3 +9,4 @@ node_modules/
 # Conversas privadas e raspadores do portal: nunca publicar
 *-extracted/
 fase3/scripts/
+fase4/scripts/
