@@ -33,6 +33,16 @@ git clone --recurse-submodules https://github.com/andersonluizpereiradias/fiap-p
 | UsersAPI | [joao-malvetoni-alta-horizon/FIAPCloudGames-fase3-UsersAPI](https://github.com/joao-malvetoni-alta-horizon/FIAPCloudGames-fase3-UsersAPI) |
 | Orchestration-anderson | [neste repositorio](fase3/Orchestration-anderson) |
 
+## Fase 4
+
+| API | Repositorio |
+|---|---|
+| CatalogAPI | [FIAP-Grupo-1/FIAPCloudGames-fase4-CatalogAPI](https://github.com/FIAP-Grupo-1/FIAPCloudGames-fase4-CatalogAPI) |
+| NotificationsAPI | [FIAP-Grupo-1/FIAPCloudGames-fase4-NotificationsAPI](https://github.com/FIAP-Grupo-1/FIAPCloudGames-fase4-NotificationsAPI) |
+| Orchestration | [FIAP-Grupo-1/FIAPCloudGames-fase4-Orchestration](https://github.com/FIAP-Grupo-1/FIAPCloudGames-fase4-Orchestration) |
+| PaymentsAPI | [FIAP-Grupo-1/FIAPCloudGames-fase4-PaymentsAPI](https://github.com/FIAP-Grupo-1/FIAPCloudGames-fase4-PaymentsAPI) |
+| UsersAPI | [FIAP-Grupo-1/FIAPCloudGames-fase4-UsersAPI](https://github.com/FIAP-Grupo-1/FIAPCloudGames-fase4-UsersAPI) |
+
 ## Scripts
 
 - `configurar-remotos.ps1` - faz `gh pr create` de cada API mirar o repositorio original.

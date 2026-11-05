@@ -28,3 +28,18 @@
 [submodule "fase3/UsersAPI"]
 	path = fase3/UsersAPI
 	url = https://github.com/joao-malvetoni-alta-horizon/FIAPCloudGames-fase3-UsersAPI.git
+[submodule "fase4/UsersAPI"]
+	path = fase4/UsersAPI
+	url = https://github.com/FIAP-Grupo-1/FIAPCloudGames-fase4-UsersAPI.git
+[submodule "fase4/CatalogAPI"]
+	path = fase4/CatalogAPI
+	url = https://github.com/FIAP-Grupo-1/FIAPCloudGames-fase4-CatalogAPI.git
+[submodule "fase4/PaymentsAPI"]
+	path = fase4/PaymentsAPI
+	url = https://github.com/FIAP-Grupo-1/FIAPCloudGames-fase4-PaymentsAPI.git
+[submodule "fase4/NotificationsAPI"]
+	path = fase4/NotificationsAPI
+	url = https://github.com/FIAP-Grupo-1/FIAPCloudGames-fase4-NotificationsAPI.git
+[submodule "fase4/Orchestration"]
+	path = fase4/Orchestration
+	url = https://github.com/FIAP-Grupo-1/FIAPCloudGames-fase4-Orchestration.git
